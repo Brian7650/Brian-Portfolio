@@ -4,15 +4,25 @@
     box-sizing: border-box;
 }
 
-nav {
+.nav {
     font: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222831;
+
+}
+
+.float-md-start {
+  display: flex;
+  justify-self: start;
 }
 
 body {
   background:#222831;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: 'Rubik Microbe', cursive;
   font:#ffffff;
   font-size: 25px;
@@ -25,7 +35,7 @@ body {
   max-width: 80em;  
   background:#222831;
   font: #DDDDDD;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
 }
@@ -42,4 +52,8 @@ body {
   margin-bottom: 35px;
   border-radius: 100%;
   width: 30%;
+}
+/* /////////////////////////////////////////////////////////////////////////////////// */
+.index-paragraph1 {
+  font-size: 1.2rem;
 }
