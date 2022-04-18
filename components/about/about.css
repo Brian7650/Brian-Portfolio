@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    font: #ffffff;
+}
+
+body {
+  background:#222831;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Rubik Microbe', cursive;
+  font:#ffffff;
+  font-size: 25px;
+}
