@@ -1,21 +1,8 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-nav {
-  font: #ffffff;
-}
-
-body {
-background:#222831;
-display: flex;
-justify-content: center;
-height: 100vh;
-font-family: 'Rubik Microbe', cursive;
-font:#ffffff;
-font-size: 25px;
+.float-md-start,
+.nav-list {
+  margin-left: 1rem;
+  color:#F5F5F5;
+  text-decoration: none;
 }
 
 .d-flex {
@@ -40,4 +27,8 @@ color:#F5F5F5;
 margin-top: 35px;
 margin-bottom: 35px;
 width: 90%;
+}
+
+P {
+  color: #222831;
 }

@@ -1,16 +1,16 @@
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .cover-container  {
     font-size: 0.5em;
     padding: 0;
   }
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .lead, h1  {
     font-size: 0.3em;
     padding: 0;
   }
-}
+} */
 .d-flex {
   background-color: #222831;
 }
@@ -18,19 +18,21 @@
   max-width: 80em;  
   background:#222831;
   font: #DDDDDD;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
 }
 
-.nav-masthead .nav-link + .nav-link {
+.float-md-start,
+.nav-list {
   margin-left: 1rem;
   color:#F5F5F5;
+  text-decoration: none;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////// */
 .myPix {
-  size: 35px;
+  /* size: 35px; */
   margin-top: 35px;
   margin-bottom: 35px;
   border-radius: 100%;
