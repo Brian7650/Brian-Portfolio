@@ -1,19 +1,27 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+.d-flex {
+  background-color: #222831;
 }
-
-nav {
-    font: #ffffff;
-}
-
-body {
+.cover-container {
+  max-width: 80em;  
   background:#222831;
+  font: #DDDDDD;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
-  height: 100vh;
-  font-family: 'Rubik Microbe', cursive;
-  font:#ffffff;
-  font-size: 25px;
+}
+
+.float-md-start,
+.nav-list {
+  margin-left: 1rem;
+  color:#F5F5F5;
+  text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+.myPix {
+  /* size: 35px; */
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: 100%;
+  width: 20%;
 }
