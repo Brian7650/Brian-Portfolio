@@ -2,7 +2,7 @@
   background-color: #222831;
 }
 .cover-container {
-  max-width: 80em;  
+  max-width: 80em;
   background:#222831;
   font: #DDDDDD;
   /* height: 100vh; */
@@ -18,10 +18,9 @@
 }
 
 /* ////////////////////////////////////////////////////////////////////////////// */
-.myPix {
-  /* size: 35px; */
+.myPixc {
+  size: 20px;
   margin-top: 35px;
   margin-bottom: 35px;
-  border-radius: 100%;
-  width: 20%;
+  width: 90%;
 }
