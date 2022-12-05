@@ -11,19 +11,19 @@ gsap.from( ".card", { y: 250, ease: "bounce.out", duration:2}, {x:0,});
 // gsap.to('h3', { scale: 1.1, eaae })
 
 $("h3").mouseenter(function(){
-    TweenLite.to(this, 1, {scale:1.1})
+    gsap.to(this, 1, {scale:1.1})
   })
   
   $("h3").mouseleave(function(){
-    TweenLite.to(this, 1, {scale:1})
+    gsap.to(this, 10, {scale:1})
   })
 
   $(".card").mouseenter(function(){
-    TweenLite.to(this, 1, {scale:1.05})
+    gsap.to(this, .10, {scale:1.04})
   })
   
   $(".card").mouseleave(function(){
-    TweenLite.to(this, 1, {scale:1})
+    gsap.to(this, .10, {scale:1})
   })
 
 // gsap.to("h3", {
