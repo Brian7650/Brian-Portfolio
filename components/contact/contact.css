@@ -57,3 +57,18 @@ h1:hover {
   color:#ffffff;
   fill: currentColor;
 }
+
+.flow-right,
+.flow-left,
+.namefl
+h2, h3 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.float-md-start {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
